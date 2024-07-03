@@ -1,12 +1,11 @@
 {
-
     "version": "2.0.0",
     "tasks": [
         {
             "type": "shell",
             "label": "C/C++",
             "command": "D:\\ToolCode\\DevCpp\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
-            "args": ["-g","${file}","-o","${flieDirname}\\${fileBasenameNoExtension}.exe"],
+            "args": ["-g", "${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe"],
             "options": {
                 "cwd": "${workspaceFolder}"
             },
