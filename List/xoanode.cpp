@@ -4,7 +4,7 @@ using namespace std;
 
 class Node{
 public:
-    int date;
+    int data;
     Node* next;
 };
 
@@ -13,7 +13,7 @@ void push(Node** head_ref, int new_data){
     // Cấp pháp bộ nhớ cho node mới
     Node* new_node = new Node();
     // Gán giá trị cho node mới
-    new_node->date = new_data;
+    new_node->data = new_data;
     // Biến node mới thành HEAD node
     new_node->next = (*head_ref);
     // Chuyển con trỏ HEAD cũ sang node mới
@@ -51,7 +51,7 @@ void deleteNode(Node** head_ref, int position){
 void printList(Node* n){
     while (n!= NULL)
     {
-        cout<< n->date<< " ";
+        cout<< n->data<< " ";
         n = n->next;
     }
 }
