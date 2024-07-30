@@ -4,7 +4,7 @@
         {
             "type": "shell",
             "label": "C/C++",
-            "command": "D:\\ToolCode\\DevCpp\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+            "command": "D:\\2_ToolCode\\DevCpp\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
             "args": ["-g", "${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe"],
             "options": {
                 "cwd": "${workspaceFolder}"
