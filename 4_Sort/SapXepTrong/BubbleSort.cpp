@@ -27,6 +27,9 @@ void printArray(int array[], int size) {
 int main() {
     int data[] = {-2, 45, 0, 11, -9};
     int size = sizeof(data) / sizeof(data[0]);
+    cout << "Day can sap xep: \n";
+    printArray(data, size);
+    
     bubbleSort(data, size);
     cout << "Day sap xep tang dan:\n";
     printArray(data, size);

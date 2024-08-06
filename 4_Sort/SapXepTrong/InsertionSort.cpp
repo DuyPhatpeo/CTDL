@@ -23,6 +23,9 @@ void printArray(int arr[], int n) {
 int main() {
     int arr[] = {5, 2, 4, 6, 1, 3};
     int N = sizeof(arr) / sizeof(arr[0]);
+    cout << "Day can sap xep: \n";
+    printArray(arr, N);
+
     insertionSort(arr, N);
     cout << "Day da sap xep: \n";
     printArray(arr, N);

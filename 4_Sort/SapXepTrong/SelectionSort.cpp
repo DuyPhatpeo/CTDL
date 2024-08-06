@@ -29,6 +29,9 @@ void printArray(int arr[], int size) {
 int main() {
     int arr[] = {64, 25, 12, 22, 11}; 
     int n = sizeof(arr) / sizeof(arr[0]);
+    cout << "Day can sap xep: \n";
+    printArray(arr, n);
+
     selectionSort(arr, n); 
     cout << "Day da sap xep: \n";
     printArray(arr, n);
